@@ -22,7 +22,7 @@ func convert_dict_to_crystal_class(data, class__name):
 			var value = obj[key2]
 
 			if value is Dictionary:
-				# We must do recursion here
+				# We must do recursion here, but i don't know how :/
 				property_list[key2] = "%s : Hash(String, Int32)" % key2
 				# Conform to Crystal's Hash
 				parameter_values_s.append("%s" % to_json(value).replace(":", "=>"))
