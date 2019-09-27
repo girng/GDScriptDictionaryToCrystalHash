@@ -13,7 +13,6 @@ Converts a GDScript's [Dictionary](https://docs.godotengine.org/en/3.1/classes/c
   
   - Into this:
 ```
-
 class NodeTypesClass
 	property id = "" 
 	property name = "" 
