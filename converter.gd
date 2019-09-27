@@ -37,9 +37,6 @@ func convert_dict_to_crystal_class(data, class__name):
 
 		hash_list_s.append( "NodeTypes[\"%s\"] = NodeTypesClass.new(%s)" % [key, parameter_values_s.join(",")] )
 
-
-	 # NodeTypes["1"] = NodeTypesClass.new("Wilson's Desire", "small_link_keystone")
-
 	for key in property_list:
 		property_list_s.append("property %s" % property_list[key])
 		parameter_list_s.append("@%s" % key)
