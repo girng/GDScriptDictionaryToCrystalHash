@@ -2,8 +2,8 @@ extends Node2D
 
 var dictionary = {
 	"1": {"id": 1, "name": "item 1", "modifiers": { muffin = 123}},
-	"2": {"id": 1, "name": "item 1", "modifiers": { muffin = 123}},
-	"3": {"id": 1, "name": "item 1", "modifiers": { muffin = 123}},
+	"2": {"id": 2, "name": "item 2", "modifiers": { muffin = 123}},
+	"3": {"id": 3, "name": "item 3", "modifiers": { muffin = 123}},
 	}
 	
 func _ready():
